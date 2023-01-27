@@ -1,0 +1,5 @@
+Artifactory Plugin 
+nexus artifact uploader plugin
+pipeline plugin
+Deploy to container plugin
+Build Timestamp plugin
