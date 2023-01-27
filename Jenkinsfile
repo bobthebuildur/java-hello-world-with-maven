@@ -12,7 +12,7 @@ pipeline {
         stage('MVN Build') {
             steps {
                 echo '<--------------- Building --------------->'
-                sh 'mvn package -f java-hello-world-with-maven/pom.xml'
+                sh 'mvn package'
                 echo '<------------- Build completed --------------->'
             }
         }
