@@ -25,13 +25,13 @@ pipeline {
                     [
                         artifactId: 'jb-hello-world-maven', 
                         classifier: '', 
-                        file: 'target/simple-app-0.2.0.jar', type: 'jar'
+                        file: 'target/jb-hello-world-maven-0.2.0.jar', type: 'jar'
                     
                     ]
                 ], 
                 credentialsId: 'nexuslogin', 
                 groupId: 'org.springframework', 
-                nexusUrl: '172.31.39.245:8080', 
+                nexusUrl: '172.31.39.245:8081', 
                 nexusVersion: 'nexus3', 
                 protocol: 'http', 
                 repository: 'http://ec2-3-110-143-205.ap-south-1.compute.amazonaws.com:8081/repository/maven-snapshots/', 
