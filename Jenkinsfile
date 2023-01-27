@@ -12,7 +12,8 @@
             steps {
                 echo '<--------------- Building --------------->'
                 sh 'mvn clean install'
-                echo '<------------- Build completed --------------->'
+               archiveArtifacts artifacts: 'target/*.war', onlyIfSuccessful: true
+              echo '<------------- Build completed --------------->'
             }
         }
 
