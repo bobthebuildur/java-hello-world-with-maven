@@ -34,7 +34,7 @@ pipeline {
                 nexusUrl: '172.31.39.245:8081', 
                 nexusVersion: 'nexus3', 
                 protocol: 'http', 
-                repository: 'maven-test-snapshot', 
+                repository: 'http://ec2-3-110-143-205.ap-south-1.compute.amazonaws.com:8081/repository/maven-test-snapshot/', 
                 version: '0.2.0'
                 echo '<------------- upload completed --------------->'
                     
