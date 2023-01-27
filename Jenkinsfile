@@ -25,7 +25,7 @@ pipeline {
                     [
                         artifactId: 'jb-hello-world-maven', 
                         classifier: '', 
-                        file: 'target/jb-hello-world-maven-0.2.0.jar', type: 'jar'
+                        file: '/home/ec2-user/var/lib/slave/var/lib/slave/workspace/samplejava/target/jb-hello-world-maven-0.2.0.jar', type: 'jar'
                     
                     ]
                 ], 
