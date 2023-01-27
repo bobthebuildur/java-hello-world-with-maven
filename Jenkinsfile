@@ -12,7 +12,7 @@ pipeline {
         stage('MVN Build') {
             steps {
                 echo '<--------------- Building --------------->'
-                sh 'mvn package'
+                sh 'mvn install'
                 echo '<------------- Build completed --------------->'
             }
         }
