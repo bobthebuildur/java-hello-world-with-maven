@@ -8,7 +8,7 @@
     stages {
         stage('MVN Build') {
             steps {
-                echo '<--------------- Building --------------->'
+                echo '<--------------- Building  Started --------------->'
                 sh 'mvn clean install'
                 echo '<------------- Build completed --------------->'
             }
