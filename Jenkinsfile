@@ -1,4 +1,4 @@
-  pipeline {
+   pipeline {
   agent any 
           tools {
         maven "MAVEN_LATEST" 
@@ -28,7 +28,7 @@
                 nexusVersion: 'nexus2', 
                 protocol: 'http', 
                 repository: 'maventest-snapshot', 
-                version: '0.2.0'
+                version: '0.4.0'
                 echo '<------------- upload completed --------------->'
                     
                 
